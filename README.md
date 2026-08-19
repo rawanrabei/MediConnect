@@ -1,16 +1,16 @@
  MediConnect 🏥
 
-MediConnect** is a modern healthcare appointment platform designed to connect patients with doctors through a simple, secure, and user-friendly digital experience.
+MediConnect is a modern healthcare appointment platform designed to connect patients with doctors through a simple, secure, and user-friendly digital experience.
 
-The platform allows patients to **discover doctors, search by specialty and location, view profiles and availability, book appointments, manage their bookings, and receive notifications**.
+The platform allows patients to **discover doctors, search by specialty and location, view profiles and availability, book appointments, manage their bookings, and receive notifications.
 
-Doctors have their own dashboard where they can manage appointments, patients, and availability**, while administrators can manage users and doctors and monitor the platform through analytics and statistics**.
+Doctors have their own dashboard where they can manage appointments, patients, and availability , while administrators can manage users and doctors and monitor the platform through analytics and statistics.
 
  👥 User Roles
 
-* **Patient:** Search for doctors, view availability, book and manage appointments, and save favorite doctors.
-* **Doctor:** Manage appointments, patients, availability, and notifications.
-* **Admin:** Manage doctors and users, monitor appointments, and view platform analytics.
+* Patient: Search for doctors, view availability, book and manage appointments, and save favorite doctors.
+* Doctor: Manage appointments, patients, availability, and notifications.
+* Admin: Manage doctors and users, monitor appointments, and view platform analytics.
 
 ✨ Key Features
 
