@@ -1,0 +1,38 @@
+export const mockNotifications = [
+  {
+    id: 'notif-1',
+    role: 'patient',
+    type: 'appointment_reminder',
+    title: 'Upcoming appointment reminder',
+    message: 'You have an appointment scheduled soon. Review your details in My Appointments.',
+    date: '2026-08-17T09:00:00.000Z',
+    read: false,
+  },
+  {
+    id: 'notif-2',
+    role: 'patient',
+    type: 'system',
+    title: 'Welcome to MediConnect',
+    message: 'Your patient portal is ready. Book appointments and manage your healthcare in one place.',
+    date: '2026-08-16T14:30:00.000Z',
+    read: false,
+  },
+  {
+    id: 'notif-3',
+    role: 'patient',
+    type: 'appointment_confirmed',
+    title: 'Appointment confirmed',
+    message: 'Your recent booking has been confirmed. View details anytime from your dashboard.',
+    date: '2026-08-15T11:15:00.000Z',
+    read: true,
+  },
+  {
+    id: 'notif-4',
+    role: 'patient',
+    type: 'system',
+    title: 'Profile tip',
+    message: 'Keep your contact information up to date so your doctor can reach you easily.',
+    date: '2026-08-14T08:00:00.000Z',
+    read: true,
+  },
+];

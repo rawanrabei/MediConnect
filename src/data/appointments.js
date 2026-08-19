@@ -1,0 +1,26 @@
+export const mockAppointments = [
+  {
+    id: 1,
+    doctorId: 1,
+    patientId: 1,
+    doctorName: 'Dr. John Smith',
+    patientName: 'Jane Doe',
+    date: '2024-01-15',
+    time: '10:00 AM',
+    specialty: 'Cardiology',
+    status: 'confirmed',
+    fee: 150,
+  },
+  {
+    id: 2,
+    doctorId: 2,
+    patientId: 1,
+    doctorName: 'Dr. Sarah Johnson',
+    patientName: 'Jane Doe',
+    date: '2024-01-20',
+    time: '02:00 PM',
+    specialty: 'Dermatology',
+    status: 'pending',
+    fee: 120,
+  },
+];
