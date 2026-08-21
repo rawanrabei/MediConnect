@@ -9,7 +9,7 @@ export const selectIsFavorite = (id) => (state) =>
 export const selectDoctorById = (id) => (state) =>
   state.doctors.list.find((doctor) => String(doctor.id) === String(id));
 
-export const selectTopRatedDoctors = (limit = 4) => (state) =>
+export const selectTopRatedDoctors = (limit = 8) => (state) =>
   [...state.doctors.list].sort((a, b) => b.rating - a.rating).slice(0, limit);
 
 export const selectFeaturedDoctor = (state) => state.doctors.list[0] || null;

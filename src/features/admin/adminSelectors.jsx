@@ -182,5 +182,5 @@ export const selectRecentAppointments = createSelector(
   (appointments) =>
     [...appointments]
       .sort((a, b) => parseAppointmentDateTime(b.date, b.time) - parseAppointmentDateTime(a.date, a.time))
-      .slice(0, 6)
+      .slice(0, 10)
 );

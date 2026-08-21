@@ -20,4 +20,4 @@ export const DOCTOR_STATUSES = {
 export const DEFAULT_DOCTOR_STATUS = DOCTOR_STATUSES.APPROVED;
 
 // Demo: last two doctors start as pending for approval workflow
-export const DEFAULT_PENDING_DOCTOR_IDS = [15, 16];
+export const DEFAULT_PENDING_DOCTOR_IDS = [29, 30];

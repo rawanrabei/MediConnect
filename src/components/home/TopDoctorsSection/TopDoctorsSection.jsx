@@ -7,7 +7,7 @@ import { btnOutline, container, section, sectionEyebrow, sectionHeader, sectionH
 import { cn } from '../../../utils/cn';
 
 const TopDoctorsSection = () => {
-  const doctors = useSelector(selectTopRatedDoctors(4));
+  const doctors = useSelector(selectTopRatedDoctors(8));
 
   return (
     <section className={cn(section, sectionSurface)} aria-labelledby="top-doctors-heading">

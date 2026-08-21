@@ -36,13 +36,13 @@ export const useDoctorDashboardData = () => {
         appointment.status !== 'cancelled' &&
         new Date(`${appointment.date}T00:00:00`).toDateString() === new Date().toDateString()
     );
-    const recentPatients = getUniqueDoctorPatients(appointments).slice(0, 4);
+    const recentPatients = getUniqueDoctorPatients(appointments).slice(0, 8);
 
     return {
       stats,
       todayAppointments,
-      upcomingAppointments: upcoming.slice(0, 5),
-      recentAppointments: [...upcoming, ...past].slice(0, 4),
+      upcomingAppointments: upcoming.slice(0, 8),
+      recentAppointments: [...upcoming, ...past].slice(0, 8),
       recentPatients,
       chartData: stats.chartData,
     };

@@ -5,7 +5,7 @@ import EmptyState from '../../common/EmptyState/EmptyState';
 import { Heart } from 'lucide-react';
 import { btn, panel, panelHeader } from '../../../constants/uiClasses';
 
-const FavoriteDoctorsSection = ({ doctors, limit = 4 }) => {
+const FavoriteDoctorsSection = ({ doctors, limit = 6 }) => {
   const displayed = doctors.slice(0, limit);
 
   return (

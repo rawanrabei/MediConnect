@@ -26,6 +26,13 @@ export const SPECIALTY_IMAGES = {
   ophthalmology: photo('photo-1579684453423-f84349ef60b0', 'w=640&h=420'),
   orthopedics: photo('photo-1571019613454-1cb2f99b2d8b', 'w=640&h=420'),
   'general-medicine': photo('photo-1666214280557-f1b5022eb634', 'w=640&h=420'),
+  gynecology: photo('photo-1579684385127-1ef15d508118', 'w=640&h=420'),
+  psychiatry: photo('photo-1573497019940-1c28c88b4f3e', 'w=640&h=420'),
+  ent: photo('photo-1582750433449-648ed127bb54', 'w=640&h=420'),
+  urology: photo('photo-1631217868264-e5b90bb7e133', 'w=640&h=420'),
+  endocrinology: photo('photo-1576091160399-112ba8d25d1d', 'w=640&h=420'),
+  gastroenterology: photo('photo-1519494026892-80bbd2d6fd0d', 'w=640&h=420'),
+  pulmonology: photo('photo-1584982751601-97dcc096659c', 'w=640&h=420'),
 };
 
 export const HOW_IT_WORKS_IMAGES = [

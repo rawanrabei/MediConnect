@@ -1,15 +1,20 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
+  Activity,
   Baby,
   Bone,
   Brain,
+  Droplets,
+  Ear,
   Eye,
   Heart,
   HeartPulse,
+  Pill,
   Smile,
   Sparkles,
   Stethoscope,
+  Wind,
 } from 'lucide-react';
 import { getFeaturedSpecialties } from '../../../data/specialties';
 import { SPECIALTY_IMAGES } from '../../../data/homeImages';
@@ -26,6 +31,11 @@ const SPECIALTY_ICONS = {
   Bone,
   Stethoscope,
   Heart,
+  Ear,
+  Droplets,
+  Activity,
+  Pill,
+  Wind,
 };
 
 const SpecialtiesSection = () => {

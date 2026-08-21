@@ -34,7 +34,7 @@ import {
 } from '../../constants/uiClasses';
 import { cn } from '../../utils/cn';
 
-const PAGE_SIZE = 8;
+const PAGE_SIZE = 12;
 
 const Doctors = () => {
   const [searchParams, setSearchParams] = useSearchParams();

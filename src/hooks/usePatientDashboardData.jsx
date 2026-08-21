@@ -16,7 +16,7 @@ export const usePatientDashboardData = () => {
     const favoriteDoctors = allDoctors.filter((doctor) => favoriteIds.includes(doctor.id));
     const recentAppointments = [...appointments]
       .sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0))
-      .slice(0, 4);
+      .slice(0, 8);
 
     return {
       upcoming,
